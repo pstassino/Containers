@@ -5,7 +5,7 @@ protected:
 	int width, height;
 public:
 	Polygon(int a, int b) : width(a), height(b) {}
-	virtual int area(void) = 0;       //Pure virtul member. Therefore, Polygon is an Abstract Class
+	virtual int area(void) = 0; //Pure virtul member. Therefore, Polygon is an Abstract Class
 	void printarea(){
 		std::cout << this->area() << '\n';
 	}
